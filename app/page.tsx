@@ -30,22 +30,15 @@ export default function Home() {
         Convite para conversa em grupo
       </p>
 
-      {/* Container de Botões */}
+      {/* Container de Botão */}
       <div className="flex w-full max-w-[320px] flex-col gap-4">
         {/* Botão Primário */}
         <a
           href={whatsappLink}
-          className="flex w-full items-center justify-center rounded-full border border-black bg-[#25D366] py-[12px] px-6 text-[17px] font-medium text-[#111b21] no-underline transition-all hover:bg-[#20bd5a] active:scale-95"
+          className="flex w-full items-center justify-center rounded-[40px] border border-black bg-[#25D366] py-[14px] px-6 text-[17px] font-medium text-[#111b21] no-underline transition-all hover:bg-[#20bd5a] active:scale-95"
         >
           Abrir app
         </a>
-
-        {/* Botão Secundário (apenas o contorno/placeholder visível no print) */}
-        <div
-          className="flex w-full h-[50px] items-center justify-center rounded-full border border-black bg-white transition-all"
-        >
-          {/* Vazio ou texto opcional para preencher o design */}
-        </div>
       </div>
 
       {/* Links de Políticas */}
